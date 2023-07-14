@@ -14,13 +14,13 @@
         <br>
         <label for="email">Email :</label>
         <br>
-        <input type="text" name="email" id="email">
+        <input type="email" name="email" id="email">
         <br>
         <label for="phone">Phone :</label>
         <br>
-        <input type="text" name="phone" id="phone">
+        <input type="tel" name="phone" id="phone">
         <br>
-        <label for="email">Occupation :</label>
+        <label for="occupation">Occupation :</label>
         <br>
         <select id="occupation" name="other">
             <option value="engineer">Engineer</option>
@@ -30,18 +30,22 @@
             <option value="scientist">Scientist</option>
             <option value="other">Other</option>
         </select>
-        <p>Topic of Interest</p>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Topic of Interest</legend>
         <label for="html">HTML</label>
         <input type="checkbox" name="HTML" id="html">
-        <br>
         <label for="css">CSS</label>
         <input type="checkbox" name="css" id="css">
-        <br>
         <label for="js">JavaScript</label>
         <input type="checkbox" name="js" id="js">
-        <p>Comments : </p>
+        </fieldset>
+        <label for="textarea">Comments : </label>
+        <br>
         <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter Comments"></textarea>
-        <input type="submit" name="" id="submit" value="submit">
+        <input type="submit" name="" id="submit" value="Register">
+    
     </form>
 </body>
 </html>
